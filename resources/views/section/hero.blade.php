@@ -8,7 +8,7 @@
     <span class="text-red-700 inline-block mt-3 font-bold ">DreadNought</span>
         </h1>
          <p class="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi harum ut esse incidunt!
-         A minima tempora odio eveniet fugit, m
+         A minima tempora odio eveniet fugit, msaddadsdas
         </p>
         <button  class="flex justify-center items-center gap-2 px-4 py-4 border font-montserrat text-lg leading-none bg-corel-red rounded-full text-white border-red-700 bg-red-700 w-55" 
         >Shop Now<img src="{{ asset('build\assets\icons\arrow-right.svg') }}"   alt='arrow right icon'
