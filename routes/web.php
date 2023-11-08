@@ -1,0 +1,37 @@
+<?php
+
+//use App\Models\Post;
+use Illuminate\Support\Facades\Route;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
+*/
+
+Route::get('/', function () {
+    
+    $shoes= [
+        [
+            "thumbnail1"=>"asset('build\assets\images\a1.svg')",
+            "bigShoe1"=>"asset('build\assets\images\dsaddas.png')"
+        ],
+        [
+            "thumbnail2"=>"asset('build\assets\images\a1.svg')",
+            "bigShoe2"=>"asset('build\assets\images\b2.png')"
+        ],
+        [
+            "thumbnail3"=>"asset('build\assets\images\a1.svg')",
+            "bigShoe3"=>"asset('build\assets\images\b3.png')"
+        ]
+    ];
+    return view('\section\layout\main',[
+        "title"=>"\section\layout\main",
+        "\section\layout\main"=>$shoes
+    ]);
+});
