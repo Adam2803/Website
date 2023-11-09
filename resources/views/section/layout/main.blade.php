@@ -9,6 +9,7 @@
   @vite('resources/css/app.css')
 </head>
 <body>
+@include('section.topnotification')
   @include('section.nav')
 <section class="heros xl-padding-1 wide:padding-r padding-b ">
   @include('section.hero')

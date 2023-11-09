@@ -10,7 +10,7 @@
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>About Us</li></a>
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>Contact Us</li></a>
             <a class="fonts-montserrat leading-normal text-lg flex justify-center 
-            items-center gap-2 px-7 py-2 border = text-lg leading-none  rounded-full text-white  bg-red-700 w-55"><li>Sign Up</li></a>
+            items-center gap-2 px-7 py-2 border =  rounded-full text-white  bg-red-700 w-55"><li>Sign Up</li></a>
         </ul>
         <div class="hidden max-lg:block gap-1">
         <img src="{{ asset('build\assets\icons\hamburger.svg') }}"  width="25" height="25">

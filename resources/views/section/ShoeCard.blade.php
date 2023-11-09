@@ -16,7 +16,7 @@
         />
         <img
           src="{{ asset('build\assets\images\a2.svg') }}"
-          style="')"
+          style="background-image: url('/build/assets/images/thumbnail-background.svg')"
           width={127}
           height={103.34}
           class='object-contain flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4'

@@ -1,3 +1,6 @@
+
+
+
 <section id="home" class="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container  p-2 ">
     <div class="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 ">
          <p class="text-xl font-montserrat text-red-700 font-semibold">
@@ -31,7 +34,7 @@
             </div>
             -->
         </div>
-
+   
     </div>
    
 </section>
