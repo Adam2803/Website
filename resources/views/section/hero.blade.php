@@ -13,11 +13,12 @@
          <p class="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi harum ut esse incidunt!
          A minima tempora odio eveniet fugit, msaddadsdas
         </p>
-        <button  class="flex justify-center items-center gap-2 px-4 py-4 border font-montserrat text-lg leading-none bg-corel-red rounded-full text-white border-red-700 bg-red-700 w-55" 
+        <a href="https://shopee.co.id/jerseybolabdg?categoryId=100637&entryPoint=ShopByPDP&itemId=23256802407" target="_blank">
+        <button class="flex justify-center items-center gap-2 px-4 py-4 border font-montserrat text-lg leading-none bg-corel-red rounded-full text-white border-red-700 bg-red-700 w-55" 
         >Shop Now<img src="{{ asset('build\assets\icons\arrow-right.svg') }}"   alt='arrow right icon'
           className='ml-2 rounded-full bg-white w-5 h-5'/>
         </button>
-
+        </a>
         <div class="flex justify-start items-start flez-warp w-full mt-20 gap-16  ">
             <p class="text-3xl font-palanquin font-bold ">1k+ <br ><span class="leading-7  font-montserrat text-slate-gray text-1xl">Brands</span></p>
             <p class="text-3xl font-palanquin font-bold">500+ <span class="leading-7  font-montserrat text-slate-gray text-1xl"><br>Shops</span></p>
