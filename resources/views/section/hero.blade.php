@@ -8,7 +8,7 @@
         </p>
             <h1 class="mt-2 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82] font-bold"><span class="xl  xl:whitespace-nowrap relative z-10 pr-10">The New <span class="bg-white  z-8 pr-8">Arivval</span></span>
          <br />
-    <span class="text-red-700 inline-block mt-3 font-bold ">DreadNought</span>
+        <span class="text-red-700 inline-block mt-3 font-bold ">DreadNought</span>
         </h1>
          <p class="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi harum ut esse incidunt!
          A minima tempora odio eveniet fugit, msaddadsdas
@@ -35,6 +35,7 @@
             </div>
             -->
         </div>
+        
    
     </div>
    
