@@ -10,7 +10,8 @@ import shieldTick from './shield-tick.svg'
 import star from './star.svg'
 import truckFast from './truck-fast.svg'
 import twitter from './twitter.svg'
-
+import { Carousel, initTE } from "tw-elements";
+initTE({ Carousel }, true ); // set second parameter to true if you want to use a debugger
 export {
     arrowRight,
     cheveronRight,

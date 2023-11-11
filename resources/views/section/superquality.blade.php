@@ -1,4 +1,4 @@
-<section class=" font-palanquin text-7xl bg-black pt-4 pb-4 ">
+<section class=" font-palanquin text-7xl bg-black pt-12 pb-12 ">
 <h1 class="flex items-center text-4xl justify-center  text-white font-bold  ">
   Dreadnought - 
   <span class="relative ml-3 h-[1.1em] w-60 font- overflow-hidden">

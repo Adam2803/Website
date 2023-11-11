@@ -4,6 +4,7 @@ export default {
         "./resources/**/*.blade.php",
         "./resources/**/*.js",
         "./resources/**/*.vue",
+        "./node_modules/tw-elements/dist/js/**/*.js",
     ],
     theme: {
         fontSize: {
@@ -52,5 +53,5 @@ export default {
             },
         },
     },
-    plugins: [],
+    plugins: [require("tw-elements/dist/plugin.cjs")],
 };
