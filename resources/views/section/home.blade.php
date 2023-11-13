@@ -9,7 +9,7 @@
   <div
     class="relative z-30 p-5 items-start text-2xl text-white  bg-opacity-50 rounded-xl"
   >
-    DreadNought
+    
   </div>
   <video
     autoplay
@@ -18,7 +18,7 @@
     class="absolute z-10 w-auto min-w-full min-h-full max-w-none"
   >
     <source
-      src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4"
+      src="{{ asset('build\assets\video\DTES.mp4') }}"
       type="video/mp4"
     />
     Your browser does not support the video tag.

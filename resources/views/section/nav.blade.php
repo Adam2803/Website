@@ -7,7 +7,7 @@
         <ul class="flex-1 flex justify-center items-center gap-16 max-lg:hidden ml-96">
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray" href="home"><li>Home</li></a>
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>Products</li></a>
-            <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>About Us</li></a>
+            <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>Shop</li></a>
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>Contact Us</li></a>
             <a class="fonts-montserrat leading-normal text-lg flex justify-center 
             items-center gap-2 px-7 py-2 border =  rounded-full text-white  bg-red-700 w-55"><li>Sign Up</li></a>
