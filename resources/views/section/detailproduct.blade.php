@@ -7,7 +7,7 @@
 > <title>Dreadnought | Home</title>
 </header>
 <body>
-<section class="overflow-hidden bg-white py-11 font-poppins  mt-20">
+<section class="overflow-hidden bg-white py-11 font-poppins  mt-20 mb-20">
         <div class="max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
             <div class="flex flex-wrap -mx-4">
                 <div class="w-full mb-8 md:w-1/2 md:mb-0">
