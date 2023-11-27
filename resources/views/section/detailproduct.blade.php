@@ -19,22 +19,17 @@
                         <div class="flex-wrap hidden md:flex ">
                             <div class="w-1/2 p-2 sm:w-1/4">
                                 <a href="#" class="block border border-blue-300 hover:border-blue-300">
-                                    <img src="https://i.postimg.cc/6qcPhTQg/R-18.png" alt=""
+                                    <img src="{{ asset('build\assets\images\prev1.jpeg') }}" alt=""
                                         class="object-cover w-full lg:h-20">
                                 </a>
                             </div>
                             <div class="w-1/2 p-2 sm:w-1/4">
                                 <a href="#" class="block border border-transparent hover:border-blue-300">
-                                    <img src="https://i.postimg.cc/6qcPhTQg/R-18.png" alt=""
+                                    <img src="{{ asset('build\assets\images\prev2.jpeg') }}" alt=""
                                         class="object-cover w-full lg:h-20">
                                 </a>
                             </div>
-                            <div class="w-1/2 p-2 sm:w-1/4">
-                                <a href="#" class="block border border-transparent hover:border-blue-300">
-                                    <img src="https://i.postimg.cc/6qcPhTQg/R-18.png" alt=""
-                                        class="object-cover w-full lg:h-20">
-                                </a>
-                            </div>
+                            
                           
                         </div>
                         <div class="px-6 pb-6 mt-6 border-t border-gray-300 dark:border-gray-400 ">

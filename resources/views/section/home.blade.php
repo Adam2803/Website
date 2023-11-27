@@ -25,7 +25,7 @@
   </video>
 </header>
 <body>
-  <section class="mt-15 mb-12 text-black">
+  <section class="mt- mb-12 text-black">
 @include('section.herohome')
 @include('section.superquality')
   </section>
