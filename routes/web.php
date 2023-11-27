@@ -13,10 +13,13 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/home',function(){
-    return view('\section\home');
+Route::get('/home',function(){return view('\section\home');});
+Route::get('/detailproduct',function(){return view('\section\detailproduct');});
+Route::get('/shop',function(){
+    return view('\section\shop');
     
 }
+
 );
 Route::get('/', function () {
     

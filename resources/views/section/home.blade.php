@@ -5,7 +5,7 @@
 @include('section.nav')
 <header
   class="relative flex items-center justify-center h-screen mb-12 mt-24 overflow-hidden"
->
+> <title>Dreadnought | Home</title>
   <div
     class="relative z-30 p-5 items-start text-2xl text-white  bg-opacity-50 rounded-xl"
   >
