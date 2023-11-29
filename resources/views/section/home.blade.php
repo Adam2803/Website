@@ -4,18 +4,34 @@
 @include('section.topnotification')
 @include('section.nav')
 <header
-  class="relative flex items-center justify-center h-screen mb-12 mt-24 overflow-hidden"
+  class="relative flex  h-screen overflow-hidden mt-24"
 > <title>Dreadnought | Home</title>
   <div
-    class="relative z-30 p-5 items-start text-2xl text-white  bg-opacity-50 rounded-xl"
+    class="absolute z-30 ml-24 mt-72  text-5xl text-white font-sans font-hairline"
   >
-    
+  <p class="break-words leading-10">
+  Built by you.
+  </p>
+  <p class="break-words leading- ">
+  For You.
+  </p>
+  <p class="break-words leading-10">
+  Let's build 
+  </p>
+  <p class="break-words">
+  Incredible things together.
+  </p>
+  <a href="/shop">
+  <button   class="flex justify-center items-center mt-10 gap-2 px-16 py-4  font-montserrat text-lg leading-4  text-white border-red-700 w-55 font-medium border-2" 
+        >Shop Now
+        </button>
+  </a>
   </div>
   <video
     autoplay
     loop
     muted
-    class="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+    class="absolute z-10 w-auto min-w-full min-h-full max-w-none mb-12  "
   >
     <source
       src="{{ asset('build\assets\video\DTES.mp4') }}"

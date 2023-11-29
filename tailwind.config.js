@@ -7,6 +7,10 @@ export default {
         "./node_modules/tw-elements/dist/js/**/*.js",
     ],
     theme: {
+        fontWeight: {
+            hairline: "10",
+            biss: "650",
+        },
         fontSize: {
             xs: ["12px", "16px"],
             sm: ["14px", "20px"],
@@ -17,6 +21,7 @@ export default {
             "3xl": ["28px", "50px"],
             "4xl": ["48px", "58px"],
             "8xl": ["96px", "106px"],
+            "5xl": "4.692rem",
         },
         extend: {
             animation: {

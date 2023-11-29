@@ -4,7 +4,7 @@
 <section id="home" class="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container  p-2 ">
     <div class="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 ">
          <p class="text-xl font-montserrat text-red-700 font-semibold">
-             Our Summer Collection
+             New Year Collection
         </p>
             <h1 class="mt-2 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82] font-bold"><span class="xl  xl:whitespace-nowrap relative z-10 pr-10">The New <span class="bg-white  z-8 pr-8">Arivval</span></span>
          <br />
@@ -27,7 +27,7 @@
         </div>
     </div>
     <div class=" ml-2 relative flex-2  flex justify-center items-center xl:min-h-screen max-xl:py-40 bg bg-primary bg-hero  bg-cover bg-center " style=" background-image: url('/build/assets/images/collection-background.svg'); background-size: cover; background-position: center;  ">
-        <img src="{{ asset('build\assets\images\dsadas.png') }}"  width={50} height={50} class="object-contain relative z-10 mt-8">
+        <img src="{{ asset('build\assets\images\dsadas.png') }}"  width={50} height={50} class="object-contain relative z-10 mt-32">
         <!--
         <div class="flex sm:gap- gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6 ml-56 mt-8 ">
             <div class='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6 '>

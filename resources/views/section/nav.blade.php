@@ -3,8 +3,8 @@
     <nav class="flex justify-between items-center max-container">
         <a href="/"> 
             <img src="{{ asset('build\assets\images\dsadaddd.svg') }}" alt="logo" width={130} height={29}>
-        </a>
-        <ul class="flex-1 flex justify-center items-center gap-16 max-lg:hidden ml-96">
+        </a>    
+        <ul class="flex-4 flex justify-center items-center gap-16 max-lg:hidden ml-86">
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray" href="home"><li>Home</li></a>
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>Products</li></a>
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray" href="shop"><li>Shop</li></a>
