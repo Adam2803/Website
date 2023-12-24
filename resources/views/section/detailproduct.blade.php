@@ -12,12 +12,12 @@
             <div class="flex flex-wrap -mx-4">
                 <div class="w-full mb-8 md:w-1/2 md:mb-0">
                     <div class="sticky top-0 z-50 overflow-hidden ">
-                        <div class="relative mb-6 lg:mb-10 lg:h-5/6 bg-gray-200">
+                        <div class="relative mb-6 lg:mb-10 lg:h-4/6 bg-gray-200">
                             <img src="{{ asset('build\assets\images\dsadas.png') }}" alt=""
                                 class="object-cover w-full lg:h-full ">
                         </div>
-                        <div class="flex-wrap hidden md:flex ">
-                            <div class="w-1/2 p-2 sm:w-1/4">
+                        <div class="flex-wrap hidden md:flex">
+                            <div class="w-1/4 p-1 sm:w-1/4">
                                 <a href="#" class="block border border-blue-300 hover:border-blue-300">
                                     <img src="{{ asset('build\assets\images\prev1.jpeg') }}" alt=""
                                         class="object-cover w-full lg:h-20">
@@ -57,9 +57,9 @@
                             <h1 class="max-w-xl mb-1 text-4xl font-bold  md:text-4xl">
                                 Dread Plane </h1>
                             <p class="inline-block mb-6 text-4xl font-bold text-gray-700 dark:text-black">
-                                <span>Rp120.000</span>
+                                <span>Rp150.000</span>
                                 <span
-                                    class="text-base font-normal text-gray-500 line-through dark:text-gray-400">Rp150.000</span>
+                                    class="text-base font-normal text-gray-500 line-through dark:text-gray-400">Rp170.000</span>
                             </p>
                             <p class="max-w-md text-gray-700 dark:text-gray-400">
                                 Lorem ispum dor amet Lorem ispum dor amet Lorem ispum dor amet Lorem ispum dor amet

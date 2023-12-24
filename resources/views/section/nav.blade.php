@@ -9,7 +9,7 @@
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>Products</li></a>
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray" href="shop"><li>Shop</li></a>
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>Costum</li></a>
-            <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>Contact Us</li></a>
+            <a class="fonts-montserrat leading-normal text-lg text-slate-gray" href="contact us"><li>Contact Us</li></a>
             <a class="fonts-montserrat leading-normal text-lg flex justify-center 
             items-center gap-2 px-7 py-2 border =  rounded-full text-white  bg-red-700 w-55 hover:bg-red-600"><li>Sign Up</li></a>
         </ul>
