@@ -1,5 +1,5 @@
 
-@vite('resources/css/app.css')
+@vite(['resources/css/app.css','resources/js/app.js'])
   <html>
 @include('section.topnotification')
 @include('section.nav')
@@ -69,40 +69,43 @@
                         
                         <div class="mb-8 ">
                             <h2
-                                class="w-16 pb-1 mb-4 text-xl font-semibold border-b border-blue-300 dark:border-gray-600 dark:text-gray-400">
+                                class="w-16 pb-1 mb-4 text-xl font-semibold border-b border-red-700 dark:border-gray-600 dark:text-gray-400">
                                 SIZE</h2>
                             <div>
                                 <div class="flex flex-wrap -mb-2">
                                     <button
-                                        class="px-4 py-2 mb-2 mr-4 font-semibold border rounded-md hover:border-blue-400 dark:border-gray-400 hover:text-blue-600 dark:hover:border-gray-300 dark:text-gray-400">
+                                        class="px-4 py-2 mb-2 mr-4 font-semibold border rounded-md hover:border-red-700 dark:border-gray-400 hover:text-red-700 dark:hover:border-gray-300 dark:text-gray-400">
                                        S
                                     </button>
-                                    <button
-                                        class="px-4 py-2 mb-2 mr-4 font-semibold border rounded-md hover:border-blue-400 hover:text-blue-600 dark:border-gray-400 dark:hover:border-gray-300 dark:text-gray-400">
-                                        M
+                                     <button
+                                        class="px-4 py-2 mb-2 mr-4 font-semibold border rounded-md hover:border-red-700 dark:border-gray-400 hover:text-red-700 dark:hover:border-gray-300 dark:text-gray-400">
+                                       M
                                     </button>
                                     <button
-                                        class="px-4 py-2 mb-2 font-semibold border rounded-md hover:border-blue-400 hover:text-blue-600 dark:border-gray-400 dark:hover:border-gray-300 dark:text-gray-400">
-                                        L
+                                        class="px-4 py-2 mb-2 mr-4 font-semibold border rounded-md hover:border-red-700 dark:border-gray-400 hover:text-red-700 dark:hover:border-gray-300 dark:text-gray-400">
+                                       L
                                     </button>
-                                    
+                                       <button
+                                        class="px-4 py-2 mb-2 mr-4 font-semibold border rounded-md hover:border-red-700 dark:border-gray-400 hover:text-red-700 dark:hover:border-gray-300 dark:text-gray-400">
+                                       XL
+                                    </button>
                                     
                                 </div>
                             </div>
                         </div>
                       
                         <div class="w-32 mb-8 ">
-                            <label for=""
+                            <label for="quantity-input"
                                 class="w-full pb-1 text-xl font-semibold text-gray-700 border-b border-blue-300 dark:border-gray-600 dark:text-gray-400">Quantity</label>
                             <div class="relative flex flex-row w-full h-10 mt-6 bg-transparent rounded-lg">
-                                <button
+                                <button type="button" id="decrement-button" data-input-counter-decrement="quantity-input"
                                     class="w-20 h-full text-gray-600 bg-gray-300 rounded-l outline-none cursor-pointer dark:hover:bg-gray-700 dark:text-gray-400 hover:text-gray-700  hover:bg-gray-400">
                                     <span class="m-auto text-2xl font-thin">-</span>
                                 </button>
-                                <input type="number"
-                                    class="flex items-center w-full font-semibold text-center text-gray-700 placeholder-gray-700 bg-gray-300 outline-none dark:text-gray-400 dark:placeholder-gray-400focus:outline-none text-md hover:text-black"
+                                <input type="text" id="quantity-input" data-input-counter aria-describedby="helper-text-explanation"
+                                    class="flex items-center w-full font-semibold text-center text-gray-700 placeholder-gray-700 bg-gray-300 outline-none dark:text-gray-400 dark:placeholder-gray-400 focus:outline-none text-md hover:text-black"
                                     placeholder="1">
-                                <button
+                                <button type="button" id="increment-button" data-input-counter-increment="quantity-input"
                                     class="w-20 h-full text-gray-600 bg-gray-300 rounded-r outline-none cursor-pointer dark:hover:bg-gray-700 dark:text-gray-400  hover:text-gray-700 hover:bg-gray-400">
                                     <span class="m-auto text-2xl font-thin">+</span>
                                 </button>
@@ -110,10 +113,10 @@
                         </div>
                         <div class="flex flex-wrap items-center gap-4">
                             <button
-                                class="w-full p-4 bg-red-500 rounded-md lg:w-2/5 dark:text-gray-200 text-gray-50 hover:bg-red-600 dark:bg-red-700 dark:hover:bg-red-00">
+                                class="w-full p-4 bg-red-700 rounded-md lg:w-2/5 dark:text-gray-200 text-gray-50 hover:bg-red-600 dark:bg-red-700 dark:hover:bg-red-00">
                                 Add to cart</button>
                                 <button
-                                class="w-full p-4 bg-red-500 rounded-md lg:w-2/5 dark:text-gray-200 text-gray-50 hover:bg-red-600 dark:bg-red-700 dark:hover:bg-red-00">
+                                class="w-full p-4 bg-red-700 rounded-md lg:w-2/5 dark:text-gray-200 text-gray-50 hover:bg-red-600 dark:bg-red-700 dark:hover:bg-red-00">
                                Buy</button>
                         </div>
                     </div>
