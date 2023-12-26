@@ -45,6 +45,7 @@
 @include('section.herohome')
 @include('section.superquality')
   </section>
+    @include('section.footer')
 </body>
 </html>
 
