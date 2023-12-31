@@ -9,7 +9,7 @@
 <body>
 
 
-<div id="default-carousel" class="relative w-full  mt-28" data-carousel="slide">
+<div id="default-carousel" class="relative w-[1500px]   mx-auto  mt-24" data-carousel="slide">
     <!-- Carousel wrapper -->
     <div class="relative h-auto overflow-hidden  md:h-2/4">
          <!-- Item 1 -->
@@ -47,13 +47,13 @@
     </button>
 </div>
 
-
+<hr>
 <!----------------------------------------------------------------------------->
 
   <section class="relative flex items-center justify-center  overflow-hidden text-black font-sans text-4xl font-bold mb-56">
  
 <div class="bg-white">
-  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
     <h2 class=" text-black font-sans text-4xl font-bold text-center mb-8">Popular Products</h2>
 
     <div class="grid grid-cols-1 gap-x-14 gap-y-14 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-12">
