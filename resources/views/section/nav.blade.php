@@ -6,12 +6,12 @@
         </a>    
         <ul class="flex-4 flex justify-center items-center gap-16 max-lg:hidden ml-86">
             <a class="fonts-montserrat leading-normal text-lg text-slate-gray" href="home"><li>Home</li></a>
-            <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>Products</li></a>
-            <a class="fonts-montserrat leading-normal text-lg text-slate-gray" href="shop"><li>Shop</li></a>
-            <a class="fonts-montserrat leading-normal text-lg text-slate-gray"><li>Costum</li></a>
-            <a class="fonts-montserrat leading-normal text-lg text-slate-gray" href="contact us"><li>Contact Us</li></a>
+            <a class="fonts-montserrat leading-normal text-lg text-slate-gray " href="shop "><li>Shop</li></a>
+            <a class="fonts-montserrat leading-normal text-lg text-slate-gray" ><li>About Us</li></a>
+            <a class="fonts-montserrat leading-normal text-lg text-white  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border rounded-full px-5 py-1  shadow-md shadow-purple-500"><li>Costum</li></a>
+            <a class="fonts-montserrat leading-normal text-lg text-slate-gray" href="contact us"><li>Contact</li></a>
             <a class="fonts-montserrat leading-normal text-lg flex justify-center 
-            items-center gap-2 px-7 py-2 border =  rounded-full text-white  bg-red-700 w-55 hover:bg-red-600"><li>Sign Up</li></a>
+            items-center gap-2 px-7 py-1 border =  rounded-full text-white  bg-black w-55 hover:bg-gray-700"><li>Sign Up</li></a>
         </ul>
         <div class="hidden max-lg:block gap-1">
         <img src="{{ asset('build\assets\icons\hamburger.svg') }}"  width="25" height="25">
