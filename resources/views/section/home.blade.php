@@ -6,12 +6,10 @@
 <header
   class="relative flex  h-screen overflow-hidden mt-24"
 > <title>Dreadnought | Home</title>
-  <div
-    class="absolute z-30 ml-24 mt-72  text-5xl text-white font-sans font-hairline"
-  >
-  <p class="break-words leading-10">
-  Built by you.
-  </p>
+  <div    class="absolute z-30 ml-24 mt-72  text-5xl text-white font-sans font-hairline">
+          <p class="break-words leading-10">
+                  Built by you.
+                   </p>
   <p class="break-words leading- ">
   For You.
   </p>
@@ -27,6 +25,7 @@
         </button>
   </a>
   </div>
+  
   <video
     autoplay
     loop

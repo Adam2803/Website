@@ -51,6 +51,7 @@ export default {
                 "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
             },
             backgroundImage: {
+                costumbg: "url('/public/build/assets/images/back.jpg')",
                 hero: "url('/build/assets/images/collection-background.svg')",
                 card: "url('/build/assets/images/thumbnail-background.svg')",
             },
@@ -59,5 +60,7 @@ export default {
             },
         },
     },
-    plugins: [require("tw-elements/dist/plugin.cjs", require('flowbite/plugin'))],
+    plugins: [
+        require("tw-elements/dist/plugin.cjs", require("flowbite/plugin")),
+    ],
 };

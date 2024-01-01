@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/home',function(){return view('\section\home');});
+Route::get('/costum',function(){return view('\section\costum');});
 Route::get('/detailproduct',function(){return view('\section\detailproduct');});
 Route::get('/shop',function(){
     return view('\section\shop');
