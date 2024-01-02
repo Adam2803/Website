@@ -11,6 +11,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+@font-face {
+    font-family: "PublicaSans";
+    src: url("/public/fonts/PublicaSans-Medium.otf");
+  }
 
 @layer components {
     .max-container {

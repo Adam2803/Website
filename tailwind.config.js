@@ -37,8 +37,10 @@ export default {
                 },
             },
             fontFamily: {
+                PublicaSans: ["PublicaSans", "sans-serif"],
                 palanquin: ["Palanquin", "sans-serif"],
                 montserrat: ["Montserrat", "sans-serif"],
+                
             },
             colors: {
                 primary: "#ECEEFF",

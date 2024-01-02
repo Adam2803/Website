@@ -69,7 +69,7 @@
                         
                         <div class="mb-8 ">
                             <h2
-                                class="w-16 pb-1 mb-4 text-xl font-semibold border-b border-red-700 dark:border-gray-600 dark:text-gray-400">
+                                class="w-16 pb-1 mb-4 text-xl font-semibold border-b border-black dark:border-gray-600 dark:text-gray-400">
                                 SIZE</h2>
                             <div>
                                 <div class="flex flex-wrap -mb-2">
@@ -113,10 +113,10 @@
                         </div>
                         <div class="flex flex-wrap items-center gap-4">
                             <button
-                                class="w-full p-4 bg-red-700 rounded-md lg:w-2/5 dark:text-gray-200 text-gray-50 hover:bg-red-600 dark:bg-red-700 dark:hover:bg-red-00">
+                                class="w-full p-4  bg-black rounded-md lg:w-2/5 dark:text-gray-200 text-gray-50 hover:bg-gray-700 ">
                                 Add to cart</button>
                                 <button
-                                class="w-full p-4 bg-red-700 rounded-md lg:w-2/5 dark:text-gray-200 text-gray-50 hover:bg-red-600 dark:bg-red-700 dark:hover:bg-red-00">
+                                class="w-full p-4  bg-black rounded-md lg:w-2/5 dark:text-gray-200 text-gray-50 hover:bg-gray-700">
                                Buy</button>
                         </div>
                     </div>
