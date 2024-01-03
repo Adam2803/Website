@@ -1,6 +1,6 @@
 
 <header class="padding-x  absolute z-10 w-full bg-white">
-    <nav class="container flex justify-around py-8 mx-auto ">
+    <nav class="container flex justify-around py-6 mx-auto ">
     <div class="flex items-center">
         <a href="/"> 
             <img src="{{ asset('build\assets\images\dsadaddd.svg') }}" alt="logo" width={130} height={29}>
@@ -14,7 +14,7 @@
              <li>
         <button class="flex justify-center items-center gap-1.5   fonts-montserrat leading-normal text-lg text-white  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border rounded-full px-10 py-2  shadow-md hover:shadow-pink-500 shadow-purple-500" 
         >
-        <img src="{{ asset('build\assets\icons\logo-costum.svg') }}"  width={10} height={29} alt='logo'
+        <img src="{{ asset('build\assets\icons\logo-costum.svg') }}"  width={50} height={50} alt='logo'
           class='ml-2 rounded-full bg-yellow w-5 h-5'/>
         Costum
         </button>

@@ -1,6 +1,6 @@
 
 
-<section class="bg-center bg-no-repeat bg-costumbg bg-cover w-full flex xl:flex-row flex-col justify-center ">
+<section class="bg-center bg-no-repeat bg-costumbg bg-cover w-full flex xl:flex-row flex-col justify-center  ">
    
 <div class="relative xl:w-1/3 flex flex-col justify-center    w-full ">
          <p class="text-2xl font-PublicaSans text-black-700 mb-4">
